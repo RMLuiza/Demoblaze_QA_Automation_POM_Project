@@ -29,7 +29,7 @@ public class Constants {
     }
 
     // rGB colors
-    public static final String blueColor = "rgba(2, 117, 216, 1)";
+    public static final String BLUE_COLOR = "rgba(2, 117, 216, 1)";
 
 
 
