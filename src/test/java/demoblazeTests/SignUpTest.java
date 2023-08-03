@@ -127,7 +127,7 @@ public class SignUpTest extends BaseTest {
     public void signUpButtonColorTest() {
         this.homePage.clickSignUpButton();
         Utils.waitInSeconds(1);
-        String expectedColor = Constants.blueColor;
+        String expectedColor = Constants.BLUE_COLOR;
         String actualColor = signUpPage.getSignUpButtonColor();
         Assert.assertEquals(actualColor, expectedColor, ErrorMessages.SIGNUP_BUTTON_COLOR_INCORRECT);
         Utils.waitInSeconds(1);
