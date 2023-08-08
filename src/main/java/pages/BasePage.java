@@ -26,16 +26,4 @@ public class BasePage {
     protected boolean isElementDisplayed(WebElement element) {
         return element.isDisplayed();
     }
-
-    // pentru a putea folosi variabilele de tip WebElement trebuie sa aplicam Page Factory in
-    // constructorul fiecarei clase care declara WebElement
-
-    // Conversie id si class catre css
-    // Ex: id='login2'  -->> #login2
-    // Ex2: id='btn btn-primary'  -->> #ctn.btn-primary
-    // Ex clase: class='signup2'  -->> .signup2
-    // Ex2 clase: class=b'btn btn-primary'  -->> .btn.btn-primary
-
-    // xpath -> css
-    // //button[@type='login'] -> button[type='login']
 }
